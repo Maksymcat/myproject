@@ -1,224 +1,148 @@
-* {
-  box-sizing: border-box;
+*{
+    box-sizing: border-box;
 }
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
+ol, ul {
+	list-style: none;
 }
-blockquote,
-q {
-  quotes: none;
+blockquote, q {
+	quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-body{
-  font-size: 16px;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-.hat{
-  background-color: black;
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
-.hat, h1{
-color: azure;
-font-weight: 700;
-font-size: large;
+div{
+	outline: 2px solid red;
 }
-.container {
-  width: 1100px;
-  margin: 0 auto;
-  text-align: center;
+.first{
+	background: tomato;
+	font-size: 0;
 }
-.main-table{
-  margin: auto;
-  width: 100%;
-  border-style: hidden;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 0 0 2px #e4e4ef; 
+.first div{
+	vertical-align: top	;
+	height:400px;
+	font-size: 20px;
+	width:400px;
+    display:inline-block;
+}
+.second{
+	vertical-align: top;
+	font-size: 0px;
+}
+.perviy  {
+	background: blueviolet;
+	width: 800px;
+	font-size: 12px;
+	display: inline-block;
+}
 
+.vtoroy  {
+	background: chocolate;
+	vertical-align: top;
+	width: 400px;
+	font-size: 12px;
+	display: inline-block;
 }
- .main-table,.main-table th, .main-table td
-{
-  vertical-align: middle;
-margin: 10px auto;
-border-top: 2px solid #e4e4ef;
+.perviy div{
+	height:200px;
 }
-.main-table th {
-  text-align: left;
-  width: 400px;
-  padding: 18px 16px;
-width: 398px;
-height: 56px;
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 16px;
-color: #1a1a1a;
+.vtoroy div{
+	height:133px;
 }
-.main-table th + th + th  { 
-  width:158px ;
+.third{
+	background: blue;
+	font-size: 0px;
 }
-.main-table th + th + th + th  { 
-  width:auto ;
+.pershe{
+	background: yellowgreen;
+	font-size: 12px;
+	display: inline-block;
+	width:400px;
+	height: 400px;
 }
-.mondrian td {
-  padding: 8px 18px 8px 16px;
-width:500px;
-height: 56px;
-  border: 1px solid red;
+.druge{
+	font-size: 0px;
 }
-.btn .online
-{
-  background-color: darkgreen;
-  color: chartreuse;
+.druge{
+	background: darkcyan;
+	vertical-align: top;
+	width: 800px;
+	height: 400px;
+	font-size: 12px;
+	display: inline-block;
 }
-.btn .offline{ 
-  background-color: firebrick;
-  color: crimson;
+.drugiy{
+	background: pink;
+	vertical-align: top;
+	width: 800px;
+	height: 200px;
+	font-size: 12px;
 }
-.main-table .btn{
-  border-radius: 12px;
-padding: 4px 24px;
-width: 83px;
-height: 28px;
-  text-align: center;
-  font-size: 12px;
+.tretie{
+	width: 800px;
+	height: 200px;
+	font-size: 0px;
 }
-.main-table p {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  color: #808080;
-
+.tretiepart-one{
+		font-size: 0px;}
+.tretiepart-one{
+	font-size: 12px;
+	width:400px;
+	height: 200px;
+	display: inline-block;
 }
-.tables .mondrian{
-  margin: 20 auto;
-  height:400px;
-  width:600px;
-  margin: 0 auto;
-  background:black;
+.three{
+	font-size: 0px;
 }
-.white{
-  background:blue;
+.three{
+	font-size: 12px;
+	display: inline-block;
+	width: 400px;
+	height: 200px;
 }
-.red{
-  background: red;
+.tretiepart-one{
+	font-size: 0px;
 }
-.green{
-  background: green;
+.tretiepart-one{
+	font-size: 12px;
 }
-.purple{
-  background: purple;
+.tretiepart-one div{
+height: 100px;
 }
