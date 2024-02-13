@@ -52,6 +52,7 @@ div{
 	outline: 2px solid red;
 }
 .first{
+	height: 400px;
 	background: tomato;
 	font-size: 0;
 }
@@ -60,89 +61,79 @@ div{
 	height:400px;
 	font-size: 20px;
 	width:400px;
-    display:inline-block;
+	float: left;
 }
 .second{
+	float: left;
 	vertical-align: top;
 	font-size: 0px;
 }
-.perviy  {
+.perviy-float  {
 	background: blueviolet;
 	width: 800px;
 	font-size: 12px;
-	display: inline-block;
+	float: left
+	;
 }
 
-.vtoroy  {
+.vtoroy-float  {
 	background: chocolate;
 	vertical-align: top;
 	width: 400px;
 	font-size: 12px;
-	display: inline-block;
+	float: left;
 }
-.perviy div{
+.perviy-float div{
 	height:200px;
 }
-.vtoroy div{
+.vtoroy-float div{
 	height:133px;
 }
 .third{
+	float: left;
 	background: blue;
-	font-size: 0px;
+	font-size: 12px;
 }
-.pershe{
+ .clearfix::after{ 
+		content:'';
+	}
+.pershe-float{
 	background: yellowgreen;
 	font-size: 12px;
-	display: inline-block;
+	float: left;
 	width:400px;
 	height: 400px;
 }
-.druge{
-	font-size: 0px;
-}
-.druge{
+.druge-float{
 	background: darkcyan;
 	vertical-align: top;
 	width: 800px;
 	height: 400px;
 	font-size: 12px;
-	display: inline-block;
+	float: left;
 }
-.drugiy{
+.drugiy-float{
 	background: pink;
 	vertical-align: top;
 	width: 800px;
 	height: 200px;
 	font-size: 12px;
 }
-.tretie{
+.tretie-float{
 	width: 800px;
 	height: 200px;
 	font-size: 0px;
 }
-.tretiepart-one{
-		font-size: 0px;}
-.tretiepart-one{
+.tretiepart-one-float{
 	font-size: 12px;
 	width:400px;
 	height: 200px;
-	display: inline-block;
-}
-.three{
-	font-size: 0px;
-}
-.three{
-	font-size: 12px;
-	display: inline-block;
-	width: 400px;
-	height: 200px;
-}
-.tretiepart-one{
-	font-size: 0px;
+	float: left;
 }
 .tretiepart-one{
 	font-size: 12px;
 }
-.tretiepart-one div{
-height: 100px;
+.tretiepart-one-float div{
+	height: 100px;
 }
+/*float*/
