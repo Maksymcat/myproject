@@ -52,11 +52,11 @@ div{
 	outline: 2px solid red;
 }
 .first{
-	height: 400px;
 	background: tomato;
 	font-size: 0;
 }
 .first div{
+	background: tomato;
 	vertical-align: top	;
 	height:400px;
 	font-size: 20px;
