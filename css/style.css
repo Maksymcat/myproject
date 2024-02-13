@@ -13,7 +13,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio,button, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -44,96 +44,59 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.clearfix::after{
+	content:'';
+display:block;
+clear: both;
+}
 .container{
     width: 1200px;
     margin: 0 auto;
 }
+
 div{
-	outline: 2px solid red;
 }
 .first{
-	background: tomato;
-	font-size: 0;
-}
-.first div{
-	background: tomato;
-	vertical-align: top	;
-	height:400px;
-	font-size: 20px;
-	width:400px;
-	float: left;
+	padding-left: 100px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 .second{
-	float: left;
-	vertical-align: top;
-	font-size: 0px;
-}
-.perviy-float  {
-	background: blueviolet;
-	width: 800px;
-	font-size: 12px;
-	float: left
-	;
+	padding-left: 100px;
+	text-align: center;
 }
 
-.vtoroy-float  {
-	background: chocolate;
-	vertical-align: top;
-	width: 400px;
+.first div{
+	padding: 10px 8px;
+	background: #d2cccc	;
+	box-shadow: 0 0 5px;
+	outline: 1px black solid;
+	margin: 0 -100px;
+	height:250px;
 	font-size: 12px;
+	width:33.333%;
 	float: left;
 }
-.perviy-float div{
-	height:200px;
+.first div + div{
+	margin-left: 120px;
 }
-.vtoroy-float div{
-	height:133px;
-}
-.third{
-	float: left;
-	background: blue;
+	.second div{
+		padding: 10px 8px;
+		background: #d2cccc	;
+		box-shadow: 0 0 5px;
+		outline: 1px black solid;
+		margin: 15px -100px;	
+	height:250px;
 	font-size: 12px;
-}
- .clearfix::after{ 
-		content:'';
-	}
-.pershe-float{
-	background: yellowgreen;
-	font-size: 12px;
-	float: left;
-	width:400px;
-	height: 400px;
-}
-.druge-float{
-	background: darkcyan;
-	vertical-align: top;
-	width: 800px;
-	height: 400px;
-	font-size: 12px;
+	width:33.333%;
 	float: left;
 }
-.drugiy-float{
-	background: pink;
-	vertical-align: top;
-	width: 800px;
-	height: 200px;
-	font-size: 12px;
+.second div + div{
+	margin-left: 120px;
 }
-.tretie-float{
-	width: 800px;
-	height: 200px;
-	font-size: 0px;
+.card-title{
+	font-size: 20px;
+	text-transform: uppercase;
 }
-.tretiepart-one-float{
-	font-size: 12px;
-	width:400px;
-	height: 200px;
-	float: left;
-}
-.tretiepart-one{
-	font-size: 12px;
-}
-.tretiepart-one-float div{
-	height: 100px;
-}
-/*float*/
+
