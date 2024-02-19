@@ -304,25 +304,42 @@ color:#FFF;
 .cards{
     margin: 0 -15px;
     display: flex;
- row-gap: 30px;
+ row-gap: 30px; /*Не працює(( */ 
 }
 .card-item {
     flex: 1 1 30%;
     padding: 0 15px;
+    margin-bottom: 30px;
 }
-.card-img{
+.card-item-img{
 object-fit: cover;
-width: 100%;
+min-width: 370px;
 height: 294px;
+margin: 0 0 20px;
 }
 .card-item-full{
     background: #FFF;
     border: 1px solid #EEE;
+    max-width: 370px;
+    height: 404px;
 }
 .card-title{
     color: #212121;
 font-family: Roboto;
 font-size: 18px;
 font-weight: 700;
-margin:0  24px;
+margin:0 24px 20px 24px;
 }
+.card-description{
+    color: #757575;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+margin: 0 24px 15px 24px;
+}
+.navigation-btn:hover{
+background: #329df6;
+}
+.navigation-btn:active{
+    background: #188ceb;
+    }
