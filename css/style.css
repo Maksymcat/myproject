@@ -144,11 +144,14 @@ display: block;
 }
 .header-menu-list li{
 	background: yellowgreen;
-	padding: 10px;
 }
 .header-menu-list li a{
+	display: block;
 	color: aliceblue;
 	text-decoration: none;
+	padding: 10px;
+	background: yellowgreen;
+	
 }
 .header-menu-list li{
 	position: relative;
@@ -156,7 +159,7 @@ display: block;
 .show-list{
 	font-family: 'Open Sans';
 	position: absolute;
-		padding: 25px 0 0;
+		padding: 15px 0 0;
 		display: none;
 }
 .header-menu-list li:hover .show-list{
@@ -168,26 +171,33 @@ display: block;
 .block{
 	font-family: 'Roboto';
 	position: absolute;
-	padding: 10px;
-	background: red;
-	left: -130px;
-    top: 0;
+	left: -134px;
+    top:  -1px;
 	display: none;
 }
 .show-list li:hover .block{
-	display: flex;
+	display: block;
 }
-.block:hover{
-	background: rgb(244, 73, 73);
+.block a{
+	display: block;
+
+}
+.block li:hover{
+background: rgb(170, 222, 66);
 }
 .block:active{
-background: rgb(202, 0, 0);}	
-.header-menu-list li:hover{
-	background: rgb(141, 183, 57);
+	background: rgb(130, 171, 47);
 }
-.header-menu-list li:active{
+
+.header-menu-list a:hover{
+	background: rgb(165, 201, 94);
+}
+.header-menu-list a:active{
 
 background: rgb(133, 187, 25);}
+.block{
+	border: 0.2px solid green;
+}
 /* NEW DZ POS*/
 /*TABLE */
 .hat{
