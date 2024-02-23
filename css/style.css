@@ -177,6 +177,17 @@ display: block;
 .show-list li:hover .block{
 	display: flex;
 }
+.block:hover{
+	background: rgb(244, 73, 73);
+}
+.block:active{
+background: rgb(202, 0, 0);}	
+.header-menu-list li:hover{
+	background: rgb(141, 183, 57);
+}
+.header-menu-list li:active{
+
+background: rgb(133, 187, 25);}
 /* NEW DZ POS*/
 /*TABLE */
 .hat{
