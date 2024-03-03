@@ -229,6 +229,7 @@ padding: 37px 28px 52px 0;
 .aside-dash{
 	color: #1A1A1A;
 	font-family: 'Nunito Sans 7pt';
+ font-weight: 700;
 }
 .aside-list li + li:hover{
 	background: #f4f2fa;
