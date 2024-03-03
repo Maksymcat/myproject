@@ -233,3 +233,9 @@ padding: 37px 28px 52px 0;
 .aside-list li + li:hover{
 	background: #f4f2fa;
 }
+.setting-icon{
+  transition: all .4s linear;
+}
+.setting-icon:hover{
+  transform: rotate(360deg);
+}
