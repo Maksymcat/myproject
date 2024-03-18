@@ -1,137 +1,132 @@
-.hero{
-    padding-bottom: 60px;
+.hero {
+  padding-bottom: 60px;
 
-
-  &__container{
+  &__container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    @media screen and (min-width: $breakpoint-md){
-       gap: 60px;
+    @media screen and (min-width: $breakpoint-md) {
+      gap: 60px;
     }
   }
-&__cards{
-    @media screen and (min-width: $breakpoint-xl){
-width: 100%;
+  &__cards {
+    @media screen and (min-width: $breakpoint-xl) {
+      width: 100%;
     }
-        
-}
-&__cards-desc{
+  }
+  &__cards-desc {
     color: $regular-color;
     text-transform: uppercase;
     font-size: 14px;
     display: inline-block;
     position: relative;
-    &::after{
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: auto;
-        right: 0;
-        transform: translate(8px) translateY(-50%) rotate(-45deg);
-        width: 6px;
-        height: 6px;
-        border-bottom: 2px solid $regular-color;
-        border-right: 2px solid $regular-color;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: auto;
+      right: 0;
+      transform: translate(8px) translateY(-50%) rotate(-45deg);
+      width: 6px;
+      height: 6px;
+      border-bottom: 2px solid $regular-color;
+      border-right: 2px solid $regular-color;
     }
-}
-&__cards-title{
+  }
+  &__cards-title {
     @include subtitle;
     @include main-gradient-text;
     white-space: collapse;
-}
-&__card-item{
-    @media screen and (min-width: $breakpoint-md){
-        flex: 1 1 40%;
-        width: 294px;
+  }
+  &__card-item {
+    @media screen and (min-width: $breakpoint-md) {
+      flex: 1 1 40%;
+      width: 294px;
     }
-    
-    @media screen and (min-width: $breakpoint-lg){
-        flex: 1 1 20%;
-        width: 261px;
-    
-    }
-        @media screen and (min-width: $breakpoint-xl){
-          flex: 1 1 30%;
-          width: 400px;
-          
 
+    @media screen and (min-width: $breakpoint-lg) {
+      flex: 1 1 20%;
+      width: 261px;
     }
-    @media screen and (min-width:$breakpoint-xxl){
-        flex: 1 1 30%;
-        width: 494px;
+    @media screen and (min-width: $breakpoint-xl) {
+      flex: 1 1 30%;
+      width: 400px;
     }
-}
+    @media screen and (min-width: $breakpoint-xxl) {
+      flex: 1 1 30%;
+      width: 494px;
+    }
+  }
 
-&__card-title{
+  &__card-title {
     @include subtitle;
     font-size: 22px;
     color: $regular-color;
     padding: 15px 0 15px 0;
-}
-&__card-title{
-    @media(min-width: $breakpoint-md){
-        font-size: 22px;
+  }
+  &__card-title {
+    @media (min-width: $breakpoint-md) {
+      font-size: 22px;
     }
-}
-&__card-desc{
+  }
+  &__card-desc {
     color: $basic-white;
-}
+  }
 
-.bag::before{
-    content: '';
+  .bag::before {
+    content: "";
     background: url(../images/bag.jpg);
     width: 92px;
     height: 92px;
     display: inline-block;
     border-radius: 24px;
     margin-bottom: 15px;
-}
+  }
 
-.chest::before{
-    content: '';
+  .chest::before {
+    content: "";
     background: url(../images/chest.jpg);
     width: 92px;
     height: 92px;
     display: inline-block;
     border-radius: 24px;
     margin-bottom: 15px;
-}
+  }
 
-.cell::before{
-    content: '';
+  .cell::before {
+    content: "";
     background: url(../images/cell.jpg);
     width: 92px;
     height: 92px;
     display: inline-block;
     border-radius: 24px;
     margin-bottom: 15px;
-}
-.hands::before{
-    content: '';
+  }
+  .hands::before {
+    content: "";
     background: url(../images/hands.jpg);
     width: 92px;
     height: 92px;
     display: inline-block;
     border-radius: 24px;
     margin-bottom: 15px;
-}
-.shield::before{
-    content: '';
+  }
+  .shield::before {
+    content: "";
     background: url(../images/shield.jpg);
     width: 92px;
     height: 92px;
     display: inline-block;
     border-radius: 24px;
     margin-bottom: 15px;
-}
-.hummer::before{
-    content: '';
+  }
+  .hummer::before {
+    content: "";
     background: url(../images/hummer.jpg);
     width: 92px;
     height: 92px;
     display: inline-block;
     border-radius: 24px;
     margin-bottom: 15px;
-}
+  }
 }
