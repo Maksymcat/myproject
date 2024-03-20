@@ -7,6 +7,7 @@ body {
 	position: relative;
 	background: $gradient-supersoft;
 	border-radius: 0 0 10px 10px;
+		margin-bottom: 20px;
 	&::after{
 		content: '';
 		position: absolute;
