@@ -13,8 +13,8 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="head">
-        <header class="head__header header">
+      <div class="head head--services">
+        <header class="head__header header ">
           <div class="container header__container">
             <div class="header__inner">
               <ul class="header__lang">
@@ -39,7 +39,7 @@
                 </svg>
               </a>
             </div>
-            <div class="header__box">
+            <div class="header__box header__box--services">
               <a class="header__logo" href="#">
                 <img
                   src="images/logo.svg"
@@ -48,10 +48,10 @@
                   height="32"
                 />
               </a>
-              <!-- <svg class="header__slash">
+              <svg class="header__slash">
 							<use href="images/sprites.svg#slash"></use>
 						</svg>
-						<span class="header__page">services</span> -->
+						<span class="header__page">services</span>
               <div class="header__burger">
                 <span></span>
               </div>
@@ -63,7 +63,7 @@
                   <a class="header__list-link" href="#">about us</a>
                 </li>
                 <li class="header__list-item">
-                  <a class="header__list-link" href="services.html">services</a>
+                  <a class="header__list-link header__list-link--active" href="#">services</a>
                 </li>
                 <li class="header__list-item">
                   <a class="header__list-link" href="#">team</a>
@@ -79,59 +79,20 @@
           </div>
         </header>
 
-        <h1 class="head__title container">you legal solutions provider</h1>
+        <h1 class="head__title head__title--services container">you legal solutions provider</h1>
 
-        <a class="head__link" href="#"></a>
+        <a class="head__link--services" href="#"></a>
       </div>
-      <section class="tabs">
-        <div class="tabs__container container">
-          <ul class="tabs__title">
-            <li class="tabs__title-item active">Consistent</li>
-            <li class="tabs__title-item">Customer oriented</li>
-            <li class="tabs__title-item">Innovative</li>
-            <li class="tabs__title-item">Business oriented</li>
-          </ul>
-          <ul class="tabs__description">
-          <li> <h3 class="tabs__description-title">
-              We turn the idea of legal services
-            </h3></li> 
-           <li class="tabs__description-item active">
-              Consolidating many years of experience and practice, the company's
-              lawyers accompany complex projects and achieve a number of
-              important decisions for the industry. Many of them form the
-              practice of applying the law of the sea in Ukraine.
-            </li>
-            <li class="tabs__description-item">
-              Consolidating many years of experience and practice, the company's
-              lawyers accompany complex projects and achieve a number of
-              important decisions for the industry. Many of them form the
-              practice of applying the law of the sea in Ukraine. *2
-            </li>
-            <li class="tabs__description-item">
-              Consolidating many years of experience and practice, the company's
-              lawyers accompany complex projects and achieve a number of
-              important decisions for the industry. Many of them form the
-              practice of applying the law of the sea in Ukraine. *3
-            </li>
-            <li class="tabs__description-item">
-              Consolidating many years of experience and practice, the company's
-              lawyers accompany complex projects and achieve a number of
-              important decisions for the industry. Many of them form the
-              practice of applying the law of the sea in Ukraine. *4
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="hero">
+      <section class="hero hero--services">
         <div class="hero__container container">
           <div class="hero__cards">
-            <a href="#" class="hero__cards-desc">services</a>
+            <a href="#" class="hero__cards-desc hero__cards-desc--services">services</a>
             <h2 class="hero__cards-title">
               What can we do better than others?
             </h2>
           </div>
           <article class="hero__card-item bag">
-            <h3 class="hero__card-title">IT and e-commerce</h3>
+            <a href="services_entry.html" class="hero__card-title">IT and e-commerce</a>
             <p class="hero__card-desc">
               An endless stream of contracts, tax issues, labor relations,
               corporate papers - legal work distracts you from doing business.
@@ -187,62 +148,7 @@
         </div>
       </section>
     </div>
-    <section class="team">
-			<div class="container">
-				<!-- контейнер для свайперу! -->
-				<div class="swiper team__swiper">
-					<!-- Оболочка свайперу -->
-					<div class="swiper-wrapper team__wrapper">
-						<!-- Slides -->
-						<!-- One slide -->
-						<div class="swiper-slide team__slider">
-							<div class="team__image">
-								<picture><source srcset="images/boris.webp" type="image/webp"><img src="images/boris.jpg" alt="Boris" width="315" height="500"></picture> 
-							</div>
-							<div class="team__inner">
-								<a class="team__inner-bread" href="#">Команда</a>
-								<h2 class="team__inner-title">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h2>
-								<div class="team__inner-name">
-									<p>Борис Олександровський</p>
-									<p>Керуючий партнер</p>
-								</div>
-							</div>
-						</div>
-						<!-- second slider -->
-						<div class="swiper-slide team__slider">
-							<div class="team__image">
-								<picture><source srcset="images/boris.webp" type="image/webp"><img src="images/boris.jpg" alt="Boris" width="315" height="500"></picture> 
-							</div>
-							<div class="team__inner">
-								<a class="team__inner-bread" href="#">Команда</a>
-								<h2 class="team__inner-title">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h2>
-								<div class="team__inner-name">
-									<p>Борис Олександровський</p>
-									<p>Керуючий партнер</p>
-								</div>
-							</div>
-						</div>
-						<!-- third slider -->
-						<div class="swiper-slide team__slider">
-							<div class="team__image">
-								<picture><source srcset="images/boris.webp" type="image/webp"><img src="images/boris.jpg" alt="Boris" width="315" height="500"></picture> 
-							</div>
-							<div class="team__inner">
-								<a class="team__inner-bread" href="#">Команда</a>
-								<h2 class="team__inner-title">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h2>
-								<div class="team__inner-name">
-									<p>Борис Олександровський</p>
-									<p>Керуючий партнер</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class="swiper-pagination"></div>
-			</div>
-		</section>
-    <section class="partners">
+    <section class="partners partners--services">
       <h3 class="partners__title">they already trust us</h3>
       <div class="partners__container">
         <div class="partners__bg-h item">
@@ -341,46 +247,6 @@
             width="152"
             height="95"
           />
-        </div>
-      </div>
-    </section>
-    <section class="publications">
-      <div class="container publications__container">
-        <div class="publications__title">
-          <a href="#" class="publications__title-desc">publications</a>
-          <h2 class="publications__title-item">We have something to tell</h2>
-        </div>
-        <div class="publications__card">
-          <div class="publications__card-item"><picture><source srcset="images/Coverproj.webp" type="image/webp"><img src="images/Coverproj.png" width="315" height="200" alt="project"></picture></div>
-          <div class="publications__card-desc">
-            <h3 class="publications__card-title">Equity associate</h3>
-            <p class="publications__card-date">April 22</p>
-            <p class="publications__card-desc-item">
-              I'm a jun on projects. I am a co-owner of a law firm. How it
-              happened. Before entering my parents told me that if I…
-            </p>
-          </div>
-        </div>
-        <div class="publications__card">
-          <div class="publications__card-item"><picture><source srcset="images/Covergdpr.webp" type="image/webp"><img src="images/Covergdpr.png" width="315" height="200" alt="GDPR"></picture></div>
-          <div class="publications__card-desc">
-            <h3 class="publications__card-title">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h3>
-            <p class="publications__card-date">September 29</p>
-            <p class="publications__card-desc-item">
-              And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.
-            </p>
-          </div>
-        </div>
-        <div class="publications__card">
-          <div class="publications__card-item"><picture><source srcset="images/Covertest.webp" type="image/webp"><img src="images/Covertest.png" width="315" height="200" alt="millenial_testament"></picture></img></div>
-          <div class="publications__card-desc">
-            <h3 class="publications__card-title">Millennial Testament</h3>
-            <p class="publications__card-date">August 19</p>
-            <p class="publications__card-desc-item">
-              What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…
-            </p>
-          </div>
-        </div>
         </div>
       </div>
     </section>
