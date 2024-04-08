@@ -1,0 +1,98 @@
+.partners {
+  @media screen and (min-width: $breakpoint-xxl) {
+    padding: 60px 100px;
+  }
+  &__container {
+    @media screen and (min-width: $breakpoint-md) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    @media screen and (min-width: $breakpoint-xxl) {
+      border: 1px solid transparent;
+      border-top-left-radius: 12px;
+    }
+  }
+  &__title {
+    color: $main-color;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__bg-h {
+    background: #1c4280;
+    @include flex-center;
+    @media screen and (min-width: $breakpoint-xxl) {
+      border-top-left-radius: 12px;
+    }
+  }
+  &__bg-w {
+    background: #143646;
+    @include flex-center;
+  }
+  &__bg-t {
+    background: #f48b30;
+    @include flex-center;
+  }
+  &__bg-3d {
+    background: #9e4dc3;
+    @include flex-center;
+    @media screen and (min-width: $breakpoint-xxl) {
+      border-top-right-radius: 12px;
+    }
+  }
+  &__bg-o {
+    background: #fd9339;
+    @include flex-center;
+  }
+  &__bg-a {
+    background: #e2e2e4;
+    @include flex-center;
+  }
+  &__bg-c {
+    background: #c71c36;
+    @include flex-center;
+  }
+  &__bg-e {
+    background: #dcf3f9;
+    @include flex-center;
+  }
+  &__bg-i {
+    background: #eaeaea;
+    @include flex-center;
+    @media screen and (min-width: $breakpoint-xxl) {
+      border-bottom-left-radius: 12px;
+    }
+  }
+  &__bg-ct {
+    background: #282240;
+    @include flex-center;
+  }
+  &__bg-art {
+    background: #1d4568;
+    @include flex-center;
+  }
+  &__bg-u {
+    background: #000000;
+    @include flex-center;
+    @media screen and (min-width: $breakpoint-xxl) {
+      border-bottom-right-radius: 12px;
+    }
+  }
+}
+.hide {
+  display: none;
+  @media screen and (min-width: $breakpoint-md) {
+    display: flex;
+  }
+}
+.item {
+  height: 120px;
+  @media screen and (min-width: $breakpoint-md) {
+    flex: 1 1 30%;
+  }
+  @media screen and (min-width: $breakpoint-lg) {
+    flex: 1 1 25%;
+  }
+}

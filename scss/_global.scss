@@ -1,0 +1,80 @@
+body {
+	font-family: 'Montserrat';
+	font-weight: 400;
+}
+
+.wrapper {
+	position: relative;
+	background: $gradient-supersoft;
+	border-radius: 0 0 10px 10px;
+		margin-bottom: 20px;
+	&::after{
+		content: '';
+		position: absolute;
+		top: auto;
+		bottom: 0;
+		left: 20px;
+		right: 20px;
+		background: #CACADB;
+	   padding: 5px;
+		transform: translateY(10px);
+		margin: 0 auto;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius:10px ;
+	}
+	&::before{
+		content: '';
+		position: absolute;
+		top: auto;
+		bottom: 0;
+		left: 40px;
+		right: 40px;
+		background: #E7E7F2;
+	   padding: 5px;
+		transform: translateY(20px);
+		margin: 0 auto;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius:10px ;
+	}
+}
+
+.container {
+	// від 0 до 767пх включно
+	padding: 0 30px;
+
+	@media screen and (min-width: $breakpoint-md) {
+		// від 768 до 1023 включно
+		max-width: 708px;
+		margin: 0 auto;
+	}
+
+	@media screen and (min-width: $breakpoint-lg) {
+		// від 1024 до 1439 включно
+		max-width: 964px;
+	}
+
+	@media screen and (min-width: $breakpoint-xl) {
+		// від 1440 до 1919 включно
+		max-width: 1380px;
+	}
+
+	@media screen and (min-width: $breakpoint-xxl) {
+		// від 1920 до бускінечності
+		max-width: 1660px;
+	}
+}
+
+.dotted {
+	width: 6px;
+	height: 6px;
+	display: none;
+	border-radius: $radius-rounded;
+
+	@media screen and (min-width: $breakpoint-md) {
+		display: inline-block;
+	}
+
+	&--white {
+		background: $basic-white;
+	}
+}
